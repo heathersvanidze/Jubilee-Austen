@@ -2,22 +2,18 @@
 body {
     color: #2b2b2b;
     font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1em;
 }
-/********GRID******/
 
-.full-width {
-    margin: 0 auto;
-    overflow: auto;
-    width: 1200px;
+html {
+    font-size:16px;
 }
-.half-width {
-    float: left;
-    width: 600px;
-}
-.third-width {
-    float: left;
-    width: 400px;
-}
+
+/******MOBILE STYLES*******/
+
 
 
 /*********HEADER*******/
@@ -26,36 +22,42 @@ header {
     background: url('../img/full-background.png');
     background-position: center;
     background-size: cover;
-    height: 800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 header h1 { 
     color: #BBC085;
     font-family: 'Lora' , 'serif';
-    font-size: 30px;
-    padding: 65px 0 65px 25px;
+    font-size: 1.875em;
+    display:flex;
 }
+
+.headline-container {
+    display:flex;
+}
+
 nav {
-    float: right;
-    padding: 75px 25px;
+   display:flex;
+   justify-content: space-between;
+
 }
 nav ul li {
-    display: inline-block;
+    list-style-type:none;
+    
 }
 nav ul li a {
     color: #828282;
-    font-size: 18px;
-    padding-left: 80px; 
+    font-size: 1.125em;
     text-decoration: none;
     text-transform: uppercase;
-    word-spacing: 80px;
 }
 header h2 {
-    clear: both;
     color: #9b9b9b;
     font-family: 'Lora' , 'serif';
-    font-size: 72px;
-    line-height: 80px;
-    width: 1000px;
+    font-size: 4.5em;
+    display:flex;
+    justify-content: center;
     
 }
 header h2 span {
@@ -65,89 +67,102 @@ header h2 span {
 
 
 /********ABOUT********/
-#about .full-width {
-    padding: 80px 0;
+
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
+}
+
+#about {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #about h2 {
     font-family: 'Lora', serif;
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: bold;
-    padding-left: 50px;
 }
  
 #about p {
     color: #7f7f7f;
-    font-size: 21px;
+    font-size: 1.3125em;
     line-height: 40px;
-    padding-left: 50px;
-    padding-right: 50;
+    
 }
 /***********WORK***********/
 #work {
     background: #f9ceb7;
     text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
-#work .full-width {
-    padding: 115px 0;
-}
+
 #work img {
     padding-bottom: 30px;
 }
 
 #work h3 {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     line-height: 32px;
     margin: 0 auto;
-    width: 190px;
     
 }
  
 #work p {
     font-family: 'Lora' , 'serif';
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 30px;
     padding: 0 50px;
 }
 /***********CONTACT**********/
 
+footer {
+    display:flex;
+    justify-content: center;
+}
+
 #contact {
     background: #ebebeb;
 }
 #contact .full-width {
-    padding: 110px 0;
+    
 }
 #contact img#contact-img {
     border: 12px solid #ffffff;
     margin-left: 25px;
 }
 #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-    padding-left: 115px;
+    
 }
 #contact #envelope {
-    padding: 0 10px 0 115px;
+    
 }
 #contact h2 {
     font-family: 'Lora' , 'serif';
-    font-size: 36px;
+    font-size: 2.25em;
     line-height: 44px;
 }
 #contact #email-header{
     font-weight: normal;
-    font-size: 28px;
+    font-size: 1.75em;
     line-height: 44px;
     margin: -30px 0 5px 0;
 }
 #contact #socialmedia-header {
     font-weight: bold;
-    font-size: 29px;
+    font-size: 1.8125em;
     line-height: 44px;
     margin: 40px 0 0 0;
 }
 #contact a {
     color: #c49075;
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: bold;
     text-decoration: none;
 }
@@ -155,7 +170,7 @@ header h2 span {
     list-style: none;
 }
 #contact ul li {
-     display: inline-block;
+     
 }
 #contact ul img {
     padding-right: 48px;

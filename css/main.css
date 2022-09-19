@@ -7,7 +7,7 @@ body {
     align-items: center;
     flex-flow: row wrap;
     font-size:1em;
-    width:300px;
+    margin:auto;
    
 }
 
@@ -94,6 +94,7 @@ header h2 {
 
 header h2 span {
     color: #2b2b2b;
+    
 }
 
 
@@ -138,10 +139,12 @@ main {
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-top:30px;
 }
 
 #work img {
     padding-bottom: 30px;
+    width:30%;
 }
 
 #work h3 {
@@ -168,19 +171,12 @@ footer {
 #contact {
     background: #ebebeb;
 }
-#contact .full-width {
-    
-}
+
 #contact img#contact-img {
     border: 12px solid #ffffff;
     margin-left: 25px;
 }
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-    
-}
-#contact #envelope {
-    
-}
+
 #contact h2 {
     font-family: 'Lora' , 'serif';
     font-size: 2.25em;
@@ -198,6 +194,11 @@ footer {
     line-height: 44px;
     margin: 40px 0 0 0;
 }
+
+.contact-info img {
+    width:30%;
+}
+
 #contact a {
     color: #c49075;
     font-size: 1.75em;

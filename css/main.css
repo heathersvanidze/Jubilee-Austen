@@ -143,6 +143,7 @@ main {
 }
 
 #work img {
+    padding-top:15px;
     padding-bottom: 30px;
     width:30%;
 }
@@ -167,6 +168,7 @@ footer {
     display:flex;
     width:90%;
 }
+
 
 #contact {
     background: #ebebeb;

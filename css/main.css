@@ -8,6 +8,7 @@ body {
     flex-flow: row wrap;
     font-size:1em;
     margin:auto;
+    max-width:375px;
    
 }
 
@@ -52,7 +53,7 @@ header .flex-container {
 header h1 { 
     color: #BBC085;
     font-family: 'Lora' , 'serif';
-    font-size: 1.875em;
+    font-size: 1.7em;
     width:90%;
 }
 
@@ -175,7 +176,6 @@ footer {
 
 #contact img#contact-img {
     border: 12px solid #ffffff;
-    width:100%;
 }
 
 #contact h2 {

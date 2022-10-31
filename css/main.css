@@ -167,7 +167,13 @@ main {
 
 footer {
     display:flex;
-    width:90%;
+    flex-flow: row wrap;
+   
+}
+
+.contact-info-heading {
+    display:flex;
+    justify-content: center;
 }
 
 #contact {
